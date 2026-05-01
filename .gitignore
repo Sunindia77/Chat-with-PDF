@@ -1,0 +1,21 @@
+# Environment variables — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# FAISS index files (can be large)
+*.faiss
+*.pkl
